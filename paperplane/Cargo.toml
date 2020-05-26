@@ -1,0 +1,24 @@
+[package]
+name = "paperplane"
+version = "0.1.0"
+authors = ["syn <isaqtm@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+paperplane-types = { path = "../paperplane-types" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+crossbeam = "0.7"
+log = "0.4"
+futures = "0.3"
+uuid = { version = "0.8", features = ["v4"] }
+tokio = { version = "0.2", features = ["full"] }
+
+[build-dependencies]
+cmake = "0.1"
+
+[dev-dependencies]
+env_logger = "0.7"
+dotenv = "0.15"

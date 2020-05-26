@@ -1,0 +1,3 @@
+[submodule "paperplane/td"]
+	path = paperplane/td
+	url = git@github.com:tdlib/td.git
