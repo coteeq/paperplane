@@ -3,3 +3,7 @@ members = [
     "paperplane",
     "paperplane-types",
 ]
+exclude = [
+    "paperplane-codegen",
+    "airception"
+]
